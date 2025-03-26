@@ -5,8 +5,8 @@ services:
     build:
       dockerfile: Dockerfile
       context: ./
+    # Dont use quotes for env value or it'll run in error in app
     environment:
-      - RAPID_API_KEY=""
-      - RAPID_API_HOST=""
-      - TELEGRAM_API=""
-
+      - RAPID_API_KEY=
+      - RAPID_API_HOST=
+      - TELEGRAM_API=

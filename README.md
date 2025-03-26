@@ -33,10 +33,15 @@ To run this project locally, follow these steps:
 
    You can obtain the `RAPID_API_KEY` and `RAPID_API_HOST` by signing up for the [Instagram Looter2 API on RapidAPI](https://rapidapi.com/iq.faceok/api/instagram-looter2).
 
-4. Start the server in development mode using Nodemon:
+4. Start the server
+* Start the server using Nodemon:
    ```bash
    npm run dev
    ```
+* Using docker compose
+  ```
+  docker compose up -d 
+  ```
 
 5. Start using your Telegram bot! Send it Instagram links (except for stories), and it will reply with the media files.
 
